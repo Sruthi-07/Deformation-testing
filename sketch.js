@@ -7,7 +7,7 @@ function setup() {
   car = createSprite(50, 200, 50, 50);
   wall = createSprite(1300,200,60,height/2);
 
-  speed = random(10,75);
+  speed = random(10,100);
   weight = random(500,1500);
 
   car.velocityX = speed;
